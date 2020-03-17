@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		27ADC4E324202BD00032CF79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC4E224202BD00032CF79 /* AppDelegate.swift */; };
 		27ADC4E524202BD10032CF79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC4E424202BD10032CF79 /* SceneDelegate.swift */; };
-		27ADC4E724202BD10032CF79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC4E624202BD10032CF79 /* ContentView.swift */; };
+		27ADC4E724202BD10032CF79 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC4E624202BD10032CF79 /* CharactersView.swift */; };
 		27ADC4E924202BD30032CF79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ADC4E824202BD30032CF79 /* Assets.xcassets */; };
 		27ADC4EC24202BD30032CF79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27ADC4EB24202BD30032CF79 /* Preview Assets.xcassets */; };
 		27ADC4EF24202BD30032CF79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27ADC4ED24202BD30032CF79 /* LaunchScreen.storyboard */; };
 		27ADC4FA24202BD40032CF79 /* NBAFinalPlayersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC4F924202BD40032CF79 /* NBAFinalPlayersTests.swift */; };
+		27ADC5052420C5000032CF79 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC5042420C5000032CF79 /* StatText.swift */; };
+		27ADC5072420C9360032CF79 /* CharacterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC5062420C9360032CF79 /* CharacterRow.swift */; };
+		27ADC5092420CAD20032CF79 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC5082420CAD20032CF79 /* Character.swift */; };
+		27ADC50B2420CF470032CF79 /* CharachersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ADC50A2420CF470032CF79 /* CharachersList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +34,7 @@
 		27ADC4DF24202BD00032CF79 /* NBAFinalPlayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBAFinalPlayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ADC4E224202BD00032CF79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27ADC4E424202BD10032CF79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27ADC4E624202BD10032CF79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27ADC4E624202BD10032CF79 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
 		27ADC4E824202BD30032CF79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27ADC4EB24202BD30032CF79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27ADC4EE24202BD30032CF79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		27ADC4F524202BD40032CF79 /* NBAFinalPlayersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NBAFinalPlayersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ADC4F924202BD40032CF79 /* NBAFinalPlayersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBAFinalPlayersTests.swift; sourceTree = "<group>"; };
 		27ADC4FB24202BD40032CF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27ADC5042420C5000032CF79 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		27ADC5062420C9360032CF79 /* CharacterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRow.swift; sourceTree = "<group>"; };
+		27ADC5082420CAD20032CF79 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		27ADC50A2420CF470032CF79 /* CharachersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharachersList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +69,8 @@
 		27ADC4D624202BD00032CF79 = {
 			isa = PBXGroup;
 			children = (
-				27ADC4E124202BD00032CF79 /* NBAFinalPlayers */,
-				27ADC4F824202BD40032CF79 /* NBAFinalPlayersTests */,
+				27ADC4E124202BD00032CF79 /* WitchersCharacters */,
+				27ADC4F824202BD40032CF79 /* WitchersCharactersTests */,
 				27ADC4E024202BD00032CF79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,18 +84,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		27ADC4E124202BD00032CF79 /* NBAFinalPlayers */ = {
+		27ADC4E124202BD00032CF79 /* WitchersCharacters */ = {
 			isa = PBXGroup;
 			children = (
 				27ADC4E224202BD00032CF79 /* AppDelegate.swift */,
 				27ADC4E424202BD10032CF79 /* SceneDelegate.swift */,
-				27ADC4E624202BD10032CF79 /* ContentView.swift */,
+				27ADC4E624202BD10032CF79 /* CharactersView.swift */,
 				27ADC4E824202BD30032CF79 /* Assets.xcassets */,
 				27ADC4ED24202BD30032CF79 /* LaunchScreen.storyboard */,
 				27ADC4F024202BD30032CF79 /* Info.plist */,
 				27ADC4EA24202BD30032CF79 /* Preview Content */,
+				27ADC5042420C5000032CF79 /* StatText.swift */,
+				27ADC5062420C9360032CF79 /* CharacterRow.swift */,
+				27ADC5082420CAD20032CF79 /* Character.swift */,
+				27ADC50A2420CF470032CF79 /* CharachersList.swift */,
 			);
-			path = NBAFinalPlayers;
+			path = WitchersCharacters;
 			sourceTree = "<group>";
 		};
 		27ADC4EA24202BD30032CF79 /* Preview Content */ = {
@@ -98,13 +110,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		27ADC4F824202BD40032CF79 /* NBAFinalPlayersTests */ = {
+		27ADC4F824202BD40032CF79 /* WitchersCharactersTests */ = {
 			isa = PBXGroup;
 			children = (
 				27ADC4F924202BD40032CF79 /* NBAFinalPlayersTests.swift */,
 				27ADC4FB24202BD40032CF79 /* Info.plist */,
 			);
-			path = NBAFinalPlayersTests;
+			path = WitchersCharactersTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +220,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27ADC5072420C9360032CF79 /* CharacterRow.swift in Sources */,
 				27ADC4E324202BD00032CF79 /* AppDelegate.swift in Sources */,
 				27ADC4E524202BD10032CF79 /* SceneDelegate.swift in Sources */,
-				27ADC4E724202BD10032CF79 /* ContentView.swift in Sources */,
+				27ADC5092420CAD20032CF79 /* Character.swift in Sources */,
+				27ADC5052420C5000032CF79 /* StatText.swift in Sources */,
+				27ADC4E724202BD10032CF79 /* CharactersView.swift in Sources */,
+				27ADC50B2420CF470032CF79 /* CharachersList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
